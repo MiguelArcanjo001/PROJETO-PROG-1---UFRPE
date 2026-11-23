@@ -1,7 +1,7 @@
 zeladora = {
-    "nome": "Zeladora",
+    "nome": "Marlene",
     "idade": 36,
     "profissao": "Zeladora",
-    "inventario": {},
+    "inventario": [],
     "vida": 100
 }

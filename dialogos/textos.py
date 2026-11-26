@@ -44,56 +44,53 @@ dialogo_1_H1 = "Após cumprimentos com o homem barbado você se surpreende ao sa
 dialogo_2_H1 = "Mas enfim, a conversa segue. O nome dele é Armando e ele é meio… digamos que seguir as linhas de raciocínio dele e o ritmo com o qual ele forma ideias é um cadinho exaustivo. Armando lhe oferece uma CHAVE ENGRAÇADA caso você consiga responder as três charadas dele."
 
     
-armando1 = "Armando limpa a garganta, faz um gesto como se ajeitasse a gravata (que ele não têm), tira poeira da camisa (que não está usando) e começa:"
+armando1 = 'ARMANDO: "Armando limpa a garganta, faz um gesto como se ajeitasse a gravata (que ele não têm), tira poeira da camisa (que não está usando) e começa:"'
 
-armando2 = '“Primeira pergunta: por que o coelho e a esquina se parecem?”'
+armando2 = 'ARMANDO: “Primeira pergunta: por que o coelho e a esquina se parecem?”'
 
-resposta1 = "???..."
+resposta1 = 'ZELADORA:"???..." '
 
-armando3 = '“Porque os dois têm orelhão! Huee, hee, hee, hee!”'
-armando4 = '“Próxima pergunta!”'
+armando3 = 'ARMANDO: “Porque os dois têm orelhão! Huee, hee, hee, hee!”'
+armando4 = 'ARMANDO: “Próxima pergunta!”'
 
-resposta2 = '“Você não…”'
+resposta2 = 'ZELADORA: “Você não…”'
 
-armando5 = '“O que uma sardinha disse pra outra quando viu um submarino?”'
+armando5 = 'ARMANDO: “O que uma sardinha disse pra outra quando viu um submarino?”'
 
-resposta3 = '“Uhmm…? Sub… Sardi…”'
+resposta3 = 'ZELADORA: “Uhmm…? Sub… Sardi…”'
 
-armando6 = '“Ela disse “Olha quanta gente enlatada!”, hee, hee, hee"'
+armando6 = 'ARMANDO: “Ela disse “Olha quanta gente enlatada!”, hee, hee, hee"'
 
-resposta4 = '“Eu não tô entendendo, não era pra eu responder? Eu sinto que está havendo um mal entendido aqu-”'
+resposta4 = 'ZELADORA: “Eu não tô entendendo, não era pra eu responder? Eu sinto que está havendo um mal entendido aqu-”'
 
-armando7 = '“ÚLTIMA PERGUNTA!”'
-armando8 = '“Por que a girafa é grande, amarela e comprida?”'
+armando7 = 'ARMANDO: “ÚLTIMA PERGUNTA! ”'
+armando8 = 'ARMANDO: "Por que a girafa é grande, amarela e comprida?”'
 
-resposta5 = '“...Eu não sei, Armando. Por quê?”'
+resposta5 = 'ZELADORA: “...Eu não sei, Armando. Por quê?”'
 
-armando9 = '“Porque se ela fosse pequena, branca e redonda ela seria um comprimido!”'
+armando9 = 'ARMANDO: “Porque se ela fosse pequena, branca e redonda ela seria um comprimido!”'
 
-resposta6 = '“Armando, com todo respeito, essa última acho que nem qualifica como uma charada.”'
+resposta6 = 'ZELADORA: “Armando, com todo respeito, essa última acho que nem qualifica como uma charada.”'
 
-armando10 = '“MEUS PARABÉNS MARLENE, VOCÊ GANHOU O GRANDE PRÊMIO! HUEE HEE HEE HEE!'
+armando10 = 'ARMANDO: “MEUS PARABÉNS MARLENE, VOCÊ GANHOU O GRANDE PRÊMIO! HUEE HEE HEE HEE!'
 
-agradecimento = "Você… agradece. Depois faz o seu caminho de volta pro centro da sala da fenda. Você aceita a situação sem entender muito bem o que aconteceu, como quem só aceita que está vivo após quase ser atropelado. Um pé na frente do outro, vida que segue."
+agradecimento = 'ZELADORA: "Você… agradece. Depois faz o seu caminho de volta pro centro da sala da fenda. Você aceita a situação sem entender muito bem o que aconteceu, como quem só aceita que está vivo após quase ser atropelado. Um pé na frente do outro, vida que segue."'
 
 fimdH1 = '"…que cara bizarro. "'
 
-dH1 = '“Espero que essa chave lhe seja útil, Marlene! Obrigado por acertar todas as minhas charadas! Você prefere não gladiar sua versão dos eventos contra os dele, porque ele provavelmente conseguiria te convencer de que qualquer ilusão dele é real. Você sorri, acena e se afasta”'
+dH1 = 'ARMANDO: “Espero que essa chave lhe seja útil, Marlene! Obrigado por acertar todas as minhas charadas! Você prefere não gladiar sua versão dos eventos contra os dele, porque ele provavelmente conseguiria te convencer de que qualquer ilusão dele é real. Você sorri, acena e se afasta”'
 
-SSC1 = "Você chega perto do cachorro e estende a mão para acariciar sua cabeça. A surpresa lhe toma quando a textura que toca em sua mão é de um objeto duro e áspero, que cede com o peso da sua mão e baixa como um botão pressionado. O cachorro é uma decoração de mentira e você acabou de ativar um mecanismo que girou a parede que você estava olhando e te levou para… outra sala menor? "
+SSC1 =  "Você chega perto do cachorro e estende a mão para acariciar sua cabeça. A surpresa lhe toma quando a textura que toca em sua mão é de um objeto duro e áspero, que cede com o peso da sua mão e baixa como um botão pressionado. O cachorro é uma decoração de mentira e você acabou de ativar um mecanismo que girou a parede que você estava olhando e te levou para… outra sala menor? "
 
-SSC2 = "Olhando ao seu redor é uma sala decorada apenas por uma mesa e uma cadeira. Em cima da mesa, uma vela que é a única a iluminar a sala, em cima da cadeira… um cachorro. Muito bem vestido, por sinal. Você não conhece essa sala, mas decide chamá-la de Sala Secreta Canina."
+SSC2 =  "Olhando ao seu redor é uma sala decorada apenas por uma mesa e uma cadeira. Em cima da mesa, uma vela que é a única a iluminar a sala, em cima da cadeira… um cachorro. Muito bem vestido, por sinal. Você não conhece essa sala, mas decide chamá-la de Sala Secreta Canina."
 
 cachorro1_1 = "Você entrega o OVO COZIDO ao Sr. Cachorro, que perde toda sua compostura e devora o ovo de forma animalesca e primitiva. Ele pede desculpas e lhe entrega o que parece ser o cano de uma arma com um “O” encravado nela. Você coloca o CANO dentro do seu inventário. "
 
 cachorro1_2 = "CACHORRO: " + '“A propósito, feliz aniversário pra sua filha, Marlene.” Diz o senhor cachorro limpando a boca. Você sorri e acena tchau."'
 cachorro1_3 = "CACHORRO: " + '“Boa sorte”'
 
-
-
-
-
-
+cachorro1 = "O Cachorro lhe dá boas vindas e te chama pelo seu nome. Você acha estranho que ele saiba, expressa sua estranheza e ele responde: O Cachorro era supostamente um dos superiores do escritório que foi colocado para trabalhar separadamente dos outros por discordar de certas práticas que ele considerava predatórias, por ele ser um dos superiores ele sempre soube do nome de todos…"
+cachorro2 =  "O Sr. Cachorro diz saber pelo que você está passando e deseja boa sorte. O mesmo também alega ter algo que possa talvez lhe ajudar em sua missão, mas que ele não pode dar porque ele simplesmente não consegue fazer NADA antes de comer um OVO COZIDO. O sonho do Sr. Cachorro agora era que um OVO COZIDO aparecesse ali, agora, na frente dele. Se alguém pudesse lhe trazer um OVO (Cozido) essa pessoa seria bem recompensada. (pisca, pisca)"
 
 chegada_GFE = """Você segue pelo corredor…
 O corredor é longo você avança por tochas e tochas iluminando as paredes de pedra lisa até que você nota que parte do corredor está bloqueada por uma grade trancada com um cadeado engraçado. Escorado em uma das paredes está o Tadeo. Você nunca foi com a cara do Tadeo. Ele é um folgado que não faz as coisas direito, sempre deixa os outros na mão e de alguma forma sempre consegue sair por cima, manter o trabalho e a simpatia do chefe. Ele é o que chamam nos livros de história de um a######## m#### do c######, ou algo assim."""
@@ -184,20 +181,22 @@ bm_fim = """Você coloca o OVO COZIDO e A CHAVE DO ELEVADOR em seu INVENTÁRIO�
 e prefere não tocar no ZIPLOCK DE FARINHA… melhor deixar que só ela lide com essas coisas. É…
 Você entra no elevador e usa a chave. Ele acende e a partir daí você se sente pronta para apertar o botão pro Térreo e sair desse calabouço…"""
 
+bm_fim2 = 'Você entra no elevador e usa a chave. Ele acende e a partir daí você se sente pronta para apertar o botão pro Térreo e sair desse calabouço…'
+
 cap3_1 = """Você chega no Térreo. Antes do salão que dá pra fora da empresa tem uma sala pequena. Estranho que tá uma barulheira no salão do outro lado. Na salinha que você se situa após ter saído do elevador não tem muita coisa, fora… o Marcelo! Última vez que você o viu ele estava saindo da sala do seu chefe quando você estava indo falar com ele.
 “Marlene! Oi! Que bom te ver!”"""
 
-cap3_r1 = """> “E aí, moço! Qual foi da sua cena saindo da sala do Doutor Bündo?”"""
+cap3_r1 = 'MARLENE: “E aí, moço! Qual foi da sua cena saindo da sala do Doutor Bündo?”'
 
-cap3_m1 = """“Ah, longa história. Inclusive tem a ver com o fato do Doutor estar lá fora fazendo essa barulheira toda. Eu fui avisar que se não tirássemos os jovens aprendizes de serem torturados e chicoteados no calabouço significava que não teríamos ninguém para emitir as notas fiscais dos serviços do escritório e que estaríamos cometendo fraude fiscal. Aí ele começou um papo torto de que sonegar imposto é ético dependendo da lente política do economista encarregado. Quando inventei de contestar, ele falou um montão de coisas más pra mim e foi quando eu saí daquele jeito…”"""
+cap3_m1 = 'MARCELO: "Ah, longa história. Inclusive tem a ver com o fato do Doutor estar lá fora fazendo essa barulheira toda. Eu fui avisar que se não tirássemos os jovens aprendizes de serem torturados e chicoteados no calabouço significava que não teríamos ninguém para emitir as notas fiscais dos serviços do escritório e que estaríamos cometendo fraude fiscal. Aí ele começou um papo torto de que sonegar imposto é ético dependendo da lente política do economista encarregado. Quando inventei de contestar, ele falou um montão de coisas más pra mim e foi quando eu saí daquele jeito…”'
 
-cap3_r2 = """> “Pera, então é o chefe lá fora fazendo esse alvor– esses barulhos são de tiro?”"""
+cap3_r2 = 'MARLENE: “Pera, então é o chefe lá fora fazendo esse alvor– esses barulhos são de tiro?”'
 
-cap3_m2 = """“O doutor meio que endoidou. Tá lá fora com um fuzil em cada mão, três charutos acesos na boca e atirando no teto e em tudo que se move. Acho que a manobra fiscal dele foi meio que descoberta e a Receita não tá muito feliz… ”"""
+cap3_m2 = 'MARCELO: “O doutor meio que endoidou. Tá lá fora com um fuzil em cada mão, três charutos acesos na boca e atirando no teto e em tudo que se move. Acho que a manobra fiscal dele foi meio que descoberta e a Receita não tá muito feliz… ”'
 
-cap3_m3 = """“Eu… suspeitei que algo assim ia acontecer e por isso encomendei uma arma na internet que foi feita especificamente para neutralizar chefes doidinhos. O problema é que ela vem dividida em cinco partes e eu acho que elas se separaram e se perderam ao longo da empresa por conta de alguma confusão na recepção…”"""
+cap3_m3 = 'MARCELO: “Eu… suspeitei que algo assim ia acontecer e por isso encomendei uma arma na internet que foi feita especificamente para neutralizar chefes doidinhos. O problema é que ela vem dividida em cinco partes e eu acho que elas se separaram e se perderam ao longo da empresa por conta de alguma confusão na recepção…”'
 
-cap3_m4 = """“Eu só tenho uma parte aqui comigo, que é a ARMAÇÃO…”"""
+cap3_m4 = 'MARLENE“Eu só tenho uma parte aqui comigo, que é a ARMAÇÃO…”'
 
 cap3_roxo_r = """> Mostrar pra ele as outras 4 peças"""
 
@@ -206,7 +205,7 @@ cap3_roxo1 = """Marcelo fica atônito ao saber que as peças foram reunidas e qu
 cap3_roxo2 = """Ele está pronto para ir de frente com o chefe, mas você o impede, deixando claro com seu olhar cansado, e sinceramente até um pouco irritado com a situação toda, que você quem quer acabar com isso.
 ”Tem certeza, Marlene? Vai conseguir matar ele sabendo que vai ser o fim da sua carreira aqui?”"""
 
-cap3_roxo3 = """“Marcelo. A recepção tá sendo destruída neste exato momento. Os servidores não funcionam. E a força que trabalhava no problema nuclear está muito ocupada se mutilando num calabouço. Não tem mais BAZINGA CORP. Acabou. Eu só vou colocar o último prego no caixão.”"""
+cap3_roxo3 = 'MARLENE: Marcelo. A recepção tá sendo destruída neste exato momento. Os servidores não funcionam. E a força que trabalhava no problema nuclear está muito ocupada se mutilando num calabouço. Não tem mais BAZINGA CORP. Acabou. Eu só vou colocar o último prego no caixão.”'
 
 cap3_roxo4 = """Marcelo assente e lhe entrega a arma."""
 

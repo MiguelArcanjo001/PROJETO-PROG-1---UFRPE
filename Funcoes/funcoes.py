@@ -2,6 +2,8 @@ import dialogos.textos as txt
 import time
 import personagens.personagens as p
 from personagens.personagens import zeladora
+import dialogos.desenhos as D
+
 
 
 estado = {
@@ -31,13 +33,16 @@ def perguntar(validas) :
         print("opcao invalida, tente de novo.")
 
 def inicio() : 
+    
     print(txt.bem_vindo)
     time.sleep(1)
     print("-" *30)
     print("CAPITULO 1")
     print("-" *30)
+    print(D.bazinga)
     time.sleep(3)
     print(txt.intro)
+    print(D.main)
     time.sleep(2)
     return "CAP1"
     
@@ -48,6 +53,7 @@ def CAP1(txt,p) :
     print("1 -- Ir para a sala do seu chefe")
     print("2 -- Ir até a copa")
     escolha = perguntar([1,2])
+    print(D.main_2)
     if escolha == 1 :
         return "SALA_CHEFE"
     return "COPA"
@@ -56,6 +62,7 @@ def sala_do_chefe(txt,p) :
     print(txt.ir_sala_chefe)
     time.sleep(3)
     print("Seu chefe, Sr. Wag. A. Bündo Bichstenbäuer, pede para que você se sente.")
+    print(D.chefe)
     print(txt.escolha)
     print("Pedir para sair mais cedo [1]")
     print("Pedir para sair mais cedo [2]")
@@ -63,8 +70,9 @@ def sala_do_chefe(txt,p) :
     perguntar([1,2,3])
     print(txt.resposta_do_chefe)
     time.sleep(6)
+    print(D.caindo_alcapao)
     print("voce cai....")
-    time.sleep(15)
+    time.sleep(7)
     return "SDD"
     
 def SDD(txt,p) :
@@ -76,6 +84,7 @@ def SDD(txt,p) :
         print(txt.queda)
         time.sleep(3)
         print(txt.queda_2)
+        print(D.corredor_iluminado)
         time.sleep(3)   
         estado["sdd_visitada"] = True
     else :
@@ -106,6 +115,7 @@ def SDD(txt,p) :
     
     
 def copa(txt,p) :
+    print(D.copa)
     print("voce escolheu ir para a copa")
     print(txt.ir_copa)
     time.sleep(3)
@@ -152,6 +162,7 @@ def trabalhadores(txt,p) :
         
 def troca_gatilho(txt,p) :
     print(txt.conversa_trabalhadores_3)
+    print(D.gatilho)
     time.sleep(3)
     if "TRELOSO" in zeladora["inventario"] :
         zeladora["inventario"].remove("TRELOSO")
@@ -164,6 +175,7 @@ def troca_gatilho(txt,p) :
 def SDP(txt,p) :
     if estado["sdp_visitada"] == False :
         print(txt.SDP_1)
+        print(D.fenda_na_parede)
         time.sleep(5)
         estado["sdp_visitada"] = True
     else :
@@ -196,6 +208,7 @@ def SDP(txt,p) :
 def FEP(txt,p) :
     if estado["fep_visitada"] == False :
         print(txt.chegada_FEP)
+        print(D.homem_cachorro)
         time.sleep(5)
         estado["fep_visitada"] = True
     else :
@@ -243,6 +256,7 @@ def ARMANDO(txt,p) :
             print(txt.agradecimento)
             time.sleep(3)
             print(txt.fimdH1)
+            print(D.chave_engracada)
             time.sleep(3)
             if "CHAVE ENGRACADA" not in zeladora["inventario"] :
                 zeladora["inventario"].append("CHAVE ENGRACADA")
@@ -288,6 +302,7 @@ def CACHORRO(txt,p) :
         print(txt.cachorro1_2)
         time.sleep(3)
         print(txt.cachorro1_3)
+        print(D.cano)
         time.sleep(3)
         zeladora["inventario"].remove("OVO COZIDO")
         zeladora["inventario"].append("CANO")
@@ -298,9 +313,7 @@ def CACHORRO(txt,p) :
     time.sleep(5)
     print(txt.cachorro2)
     time.sleep(3)
-    print(txt.escolha)
-    print("1 -- Ok.")
-    perguntar([1])
+    print('zeladoraa: " Ok ".')
     return "SSC"
 
 
@@ -338,6 +351,7 @@ def GFE(txt,p) :
                 print(txt.ce1)
                 time.sleep(3)
                 print(txt.tadeo_tambor)
+                print(D.tambor)
                 time.sleep(3)
                 zeladora["inventario"].append("TAMBOR")
                 estado["grade_aberta"] = True
@@ -379,6 +393,8 @@ def STI(txt,p) :
         print(txt.sti_depois)
         time.sleep(3)
         return "SSB"
+    print(D.caras_do_ti)
+    print(D.caras_do_ti_2)
 
     falas = [txt.sti1, txt.sti_r1, txt.sti2, txt.sti_r2, txt.sti3, txt.sti_r3, txt.sti4, txt.sti5]
     for fala in falas :
@@ -400,6 +416,7 @@ def STI(txt,p) :
     print(txt.sti_V2)
     time.sleep(5)
     print(txt.sti_V3)
+    print(D.cabo)
     time.sleep(3)
     zeladora["inventario"].append("CABO")
     zeladora["inventario"].append("CAO")
@@ -410,6 +427,7 @@ def STI(txt,p) :
 def MEC(txt,p) :
     if estado["mec_visitada"] == False :
         print(txt.chegada_MEC)
+        print(D.menina_com_espada)
         time.sleep(5)
         estado["mec_visitada"] = True
     else :
@@ -480,6 +498,7 @@ def CAP3(txt,p) :
     time.sleep(5)
 
     print(txt.cap3_1)
+    print(D.marcelo)
     time.sleep(3)
     print(txt.cap3_r1)
     time.sleep(2)
@@ -505,6 +524,7 @@ def CAP3(txt,p) :
         print(txt.cap3_roxo_r)
         time.sleep(2)
         print(txt.cap3_roxo1)
+        print(D.sonega)
         time.sleep(4)
         print(txt.cap3_roxo2)
         time.sleep(4)
@@ -546,13 +566,14 @@ def CAP3(txt,p) :
 
 def CAP4A(txt,p) :
     print("-" *30)
-    print("CAPITULO 4-A")
+    print("CAPITULO 4")
     print("-" *30)
     time.sleep(5)
 
     print(txt.cap4a_1)
     time.sleep(5)
     print(txt.cap4a_2)
+    print(D.bolo_aniversario)
     time.sleep(6)
     print(txt.cap4a_3)
     time.sleep(6)
@@ -563,10 +584,8 @@ def CAP4A(txt,p) :
 
 def CAP4B(txt,p) :
     print("-" *30)
-    print("CAPITULO 4-B")
+    print("CAPITULO 4")
     print("-" *30)
-    time.sleep(5)
-
     print(txt.cap4b_1)
     time.sleep(6)
     print(txt.cap4b_2)
